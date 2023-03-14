@@ -2,7 +2,14 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      titleTemplate: '%s - むらさん',
+      titleTemplate: '%s - むらさん'
+    }
+  },
+  css: ['~/assets/css/main.css'],
+  postcss: {
+    plugins: {
+      'tailwindcss': {},
+      'autoprefixer': {}
     }
   }
 })

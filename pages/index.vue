@@ -7,11 +7,9 @@
 <template>
   <div>
     <!-- Welcome -->
-    <h1>Welcome to the Vue.js App</h1>
-    <!-- Navigation -->
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
+    <h1 class="text-3xl">Welcome to the Vue.js App</h1>
+    <p>
+      This is a Vue.js app with TypeScript, Tailwind CSS, and Vite.
+    </p>
   </div>
 </template>

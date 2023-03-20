@@ -6,10 +6,9 @@
 
 <template>
   <div>
-    <!-- Welcome -->
-    <h1 class="text-3xl">Welcome to the Vue.js App</h1>
-    <p>
-      This is a Vue.js app with TypeScript, Tailwind CSS, and Vite.
-    </p>
+    <Pagetitle>About</Pagetitle>
+    <p>Hi, I'm murasan.</p>
+    <p>This is my new website.</p>
+    <p>Take a look at my previous portfolio site from <NuxtLink to="https://portfolio.mura32033.com" target="_blank" class="underline">here</NuxtLink> .</p>
   </div>
 </template>

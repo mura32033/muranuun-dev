@@ -5,11 +5,9 @@
 </script>
 
 <template>
-  <div>
+  <div class="my-auto">
     <!-- Welcome -->
-    <h1 class="text-3xl">Welcome to the Vue.js App</h1>
-    <p>
-      This is a Vue.js app with TypeScript, Tailwind CSS, and Vite.
-    </p>
+    <Pagetitle>muranuun.dev</Pagetitle>
+    <p>Welcome to muranuun.dev</p>
   </div>
 </template>

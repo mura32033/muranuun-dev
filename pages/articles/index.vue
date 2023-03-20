@@ -7,15 +7,11 @@
 
 <template>
   <div>
-    <!-- Welcome -->
-    <h1 class="text-3xl">Articles</h1>
+    <Pagetitle>Articles</Pagetitle>
     <ContentList path="/articles">
       <template v-slot="{ list }">
-        <div v-for="article in list" :key="article._path">
-          <NuxtLink :to="article._path">
-            <h2 class="text-2xl underline">> {{ article.title }}</h2>
-          </NuxtLink>
-          <p class="pl-4">{{ article.description }}</p>
+        <div v-for="article in list" :key="article._path" class="grid grid-cols-3 gap-4">
+          <ArticleCard :article="article" />
         </div>
       </template>
       <template #not-found>

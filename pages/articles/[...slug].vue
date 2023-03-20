@@ -1,8 +1,13 @@
 <template>
   <div>
+    <div class="mb-2">
+      <NuxtLink to="/articles" class="text-sm md:text-base">
+        &larr; Back to articles
+      </NuxtLink>
+    </div>
     <ContentDoc>
       <template v-slot="{ doc }">
-        <h1 class="text-4xl mb-8">{{ doc.title }}</h1>
+        <h1 class="text-5xl mb-8">{{ doc.title }}</h1>
         <ContentRenderer :value="doc" class="content" />
       </template>
       <template #not-found>

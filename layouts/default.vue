@@ -2,12 +2,8 @@
   <div class="bg-slate-700 text-slate-300">
     <div class="flex flex-col min-h-screen mx-4 md:w-3/4 md:mx-auto py-4 md:py-8">
       <header class="flex flex-col md:flex-row items-center">
-        <div class="text-4xl font-bold">むらさん</div>
-        <nav class="flex flex-row gap-4 mt-2 md:ml-auto md:mt-0 text-sm md:text-base">
-          <router-link to="/" exact>Home</router-link>
-          <router-link to="/about">About</router-link>
-          <router-link to="/articles">Articles</router-link>
-        </nav>
+        <router-link to="/" exact><Logo :width="100" /></router-link>
+        <Nav />
       </header>
       <main class="flex flex-col flex-1 my-8 p-4">
         <slot />

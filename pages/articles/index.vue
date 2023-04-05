@@ -7,7 +7,7 @@
 
 <template>
   <div>
-    <Pagetitle>Articles</Pagetitle>
+    <Pagetitle title="Articles" />
     <ContentList path="/articles">
       <template v-slot="{ list }">
         <div v-for="article in list" :key="article._path" class="grid grid-cols-3 gap-4">

@@ -7,7 +7,7 @@
     </div>
     <ContentDoc>
       <template v-slot="{ doc }">
-        <h1 class="text-5xl mb-8">{{ doc.title }}</h1>
+        <Pagetitle :title="doc.title" />
         <ContentRenderer :value="doc" class="content" />
       </template>
       <template #not-found>

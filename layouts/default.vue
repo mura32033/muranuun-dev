@@ -2,14 +2,23 @@
   <div class="bg-slate-700 text-slate-300">
     <div class="flex flex-col min-h-screen mx-4 md:w-3/4 md:mx-auto py-4 md:py-8">
       <header class="flex flex-col md:flex-row items-center">
-        <router-link to="/" exact><Logo :width="100" /></router-link>
+        <router-link to="/" exact active-class="disabled"><Logo :width="100" /></router-link>
         <Nav />
       </header>
       <main class="flex flex-col flex-1 my-8 p-4">
         <slot />
       </main>
-      <footer class="text-center">
-        <p>&copy; {{ new Date().getFullYear() }} murasan.</p>
+      <footer class="flex flex-row">
+        <p class="mr-auto">&copy; {{ new Date().getFullYear() }} murasan.</p>
+        <!-- SNS Icons -->
+        <div class="flex flex-row justify-center gap-4">
+          <NuxtLink to="https://twitter.com/murasan_tech" target="_blank">
+            <Icon name="uil:twitter" size="24" />
+          </NuxtLink>
+          <NuxtLink to="https://github.com/mura32033" target="_blank">
+            <Icon name="uil:github" size="24" />
+          </NuxtLink>
+        </div>
       </footer>
     </div>
   </div>

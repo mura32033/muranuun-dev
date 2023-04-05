@@ -3,6 +3,10 @@ export default defineNuxtConfig({
   app: {
     head: {
       titleTemplate: '%s - むらさん'
+    },
+    layoutTransition: {
+      name: 'layout',
+      mode: 'out-in'
     }
   },
   css: ['~/assets/css/main.css'],
@@ -14,7 +18,8 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxt/content',
-    '@vueuse/nuxt'
+    '@vueuse/nuxt',
+    'nuxt-icon'
   ],
   content: {
     highlight: {

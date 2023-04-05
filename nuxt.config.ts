@@ -27,5 +27,11 @@ export default defineNuxtConfig({
       theme: 'github-dark',
       preload: ['xml']
     }
-  }
+  },
+  plugins: [
+    {
+      src: '~/plugins/vercel.ts',
+      mode: 'client'
+    }
+  ]
 })

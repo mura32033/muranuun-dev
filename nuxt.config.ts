@@ -27,5 +27,8 @@ export default defineNuxtConfig({
       theme: 'github-dark',
       preload: ['xml']
     }
+  },
+  runtimeConfig: {
+    gtag: ''
   }
 })

@@ -1,0 +1,163 @@
+{
+    "award": [
+        {
+            "title": "ジュニア部門最優秀発表賞",
+            "content": "題目: 睡眠は起床時の気分に影響するのか―パイロットスタディ",
+            "detail": {
+                "date": "2020年12月",
+                "place": "静岡大学情報学部情報学シンポジウム2020"
+            }
+        }
+    ],
+    "present": [
+        {
+            "title": "Does sleep affect morning mood? - Pilot study",
+            "detail": {
+                "date": "2021年7月",
+                "place": "The 32nd International Congress of Psychology"
+            }
+        },
+        {
+            "title": "ウェアラブルデバイスを用いた日常生活下における睡眠規則性と気分の関連",
+            "detail": {
+                "date": "2022年12月",
+                "place": "第20回情報学ワークショップ"
+            }
+        }
+    ],
+    "publication": [
+        {
+            "title": "In preparation...",
+            "detail": {
+                "date": "Published date comes here",
+                "publisher": "Publisher name comes here",
+                "isFirstAuthor": false
+            }
+        }
+    ],
+    "skill": {
+        "certificate": [
+            {
+                "title": "実用英語技能検定準2級",
+                "content": "2009年第2回取得"
+            },
+            {
+                "title": "実用英語技能検定2級",
+                "content": "2010年第1回取得"
+            },
+            {
+                "title": "実用英語技能検定準1級",
+                "content": "2015年第3回取得"
+            },
+            {
+                "title": "TOEIC(IP; L&R)スコア935",
+                "content": "2018年8月取得"
+            },
+            {
+                "title": "TOEIC(公開; L&R)スコア940",
+                "content": "2020年12月取得"
+            },
+            {
+                "title": "普通自動車第一種運転免許",
+                "content": "2021年7月取得"
+            },
+            {
+                "title": "ITパスポート",
+                "content": "2022年6月取得"
+            }
+        ],
+        "skill": [
+            {
+                "title": "HTML+CSS",
+                "level": 4,
+                "content": "できます。",
+                "icon": "devicon-html5-plain-wordmark"
+            },
+            {
+                "title": "PHP",
+                "level": 2,
+                "content": "Laravelを講義課題で使ったことがあります。",
+                "icon": "devicon-php-plain"
+            },
+            {
+                "title": "JavaScript",
+                "level": 2,
+                "content": "Vue.js（Nuxt.js）も使うことができます。",
+                "icon": "devicon-javascript-plain"
+            },
+            {
+                "title": "Java",
+                "level": 1,
+                "content": "講義で使ったことがあるレベルです。",
+                "icon": "devicon-java-plain"
+            },
+            {
+                "title": "Dart",
+                "level": 2,
+                "content": "講義課題で独学でFlutterを使いました。",
+                "icon": "devicon-flutter-plain"
+            },
+            {
+                "title": "R",
+                "level": 3,
+                "content": "主要統計処理、グラフィック出力ができます。",
+                "icon": "devicon-r-plain"
+            },
+            {
+                "title": "Python",
+                "level": 1,
+                "content": "勉強途中です。",
+                "icon": "devicon-python-plain"
+            },
+            {
+                "title": "SAS",
+                "level": 2,
+                "content": "統計処理を書籍等を見ながらできます。研究の解析で用いました。"
+            },
+            {
+                "title": "MATLAB",
+                "level": 1,
+                "content": "指導教官に勧められて少しずつ勉強しています。",
+                "icon": "devicon-matlab-plain"
+            }
+        ]
+    },
+    "history": [
+        {
+            "title": "2000年3月3日",
+            "content": "日本・静岡県内にて誕生。"
+        },
+        {
+            "title": "2005年4月",
+            "content": "父の仕事の関係で、アメリカ合衆国・オハイオ州に移住。"
+        },
+        {
+            "title": "2009年5月",
+            "content": "日本帰国。浜松市立小学校に入る。"
+        },
+        {
+            "title": "2012年4月",
+            "content": "浜松市立中学校に入学。"
+        },
+        {
+            "title": "2015年4月",
+            "content": "浜松市内の静岡県立高校に入学。"
+        },
+        {
+            "title": "2018年4月",
+            "content": "静岡大学情報学部行動情報学科に入学。"
+        },
+        {
+            "title": "2020年12月25日",
+            "content": "静岡大学情報学部主催、情報学シンポジウム2020にてジュニア部門最優秀発表賞を受賞。"
+        },
+        {
+            "title": "2022年4月",
+            "content": "静岡大学大学院総合科学技術研究科情報学専攻に入学。"
+        },
+        {
+            "title": "2022年8月",
+            "content": "KDDI株式会社にて1weekインターンシップ(クラウドアプリケーションコースアジャイル開発体験コース)に参加。"
+        }
+    ]
+}

@@ -21,16 +21,4 @@
   .content {
     @apply text-slate-300;
   }
-  .content h2 {
-    @apply text-3xl mb-4;
-  }
-  .content h3 {
-    @apply text-2xl mb-2;
-  }
-  .content p {
-    @apply mb-4 leading-relaxed;
-  }
-  .content p:last-child {
-    @apply mb-0;
-  }
 </style>

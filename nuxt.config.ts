@@ -1,5 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import 'dotenv/config'
 export default defineNuxtConfig({
+  ssr: true,
   app: {
     head: {
       titleTemplate: '%s - むらさん'
@@ -35,9 +37,7 @@ export default defineNuxtConfig({
     }
   ],
   runtimeConfig: {
-    private: {
-      CONTENTFUL_SPACE_ID: process.env.CTF_SPACE_ID,
-      CONTENTFUL_ACCESS_TOKEN: process.env.CTF_CDA_ACCESS_TOKEN
-    }
+    CONTENTFUL_SPACE_ID: process.env.CONTENTFUL_SPACE_ID,
+    CONTENTFUL_ACCESS_TOKEN: process.env.CONTENTFUL_ACCESS_TOKEN
   }
 })

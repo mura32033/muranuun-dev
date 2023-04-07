@@ -8,8 +8,8 @@
 <template>
   <div>
     <Pagetitle title="About" />
-    <div v-for="item in data" :key="item._path">
-      <h1 class="text-3xl">{{ item.title }}</h1>
+    <div v-for="item in data" :key="item._path" class="mb-8">
+      <h1 class="text-4xl mb-4">{{ item.title }}</h1>
       <template v-if="item.title === 'Skill'">
         <about-skill :content="item.body" />
       </template>

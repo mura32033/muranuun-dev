@@ -1,20 +1,19 @@
 <script setup lang="ts">
-  defineProps<{
-    content?: Object
-  }>()
+defineProps<{
+  content?: Object
+}>()
 </script>
 
 <template>
-  <div class="grid grid-cols-2 gap-4 ml-4">
-    <div v-for="c in content" class="flex flex-col gap-4 border border-slate-400 rounded p-4">
-      <div class="flex flex-col my-auto">
-        <h3 class="text-2xl">{{ c.title }}</h3>
-        <div class="flex flex-col mb-auto ml-auto text-sm text-slate-400 text-right">
-          <span>{{ c.date }}</span>
-          <span>{{ c.place }}</span>
+  <div class="ml-4">
+    <ol class="relative border-l border-slate-400">
+      <li class="mb-6 ml-4 last:mb-0 last:pb-2" v-for="c in content">
+        <div class="absolute w-3 h-3 bg-slate-400 rounded-full mt-2 -left-1.5">
         </div>
-      </div>
-      <p v-if="c.content">{{ c.content }}</p>
-    </div>
+        <time class="mb-1 text-sm leading-none text-slate-400">{{ c.date }}</time>
+        <h3 class="text-xl font-semibold text-slate-200">{{ c.title }}</h3>
+        <p class="mt-2 text-slate-300">{{ c.content }}</p>
+      </li>
+    </ol>
   </div>
 </template>

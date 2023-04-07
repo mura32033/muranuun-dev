@@ -1,5 +1,4 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import 'dotenv/config'
 export default defineNuxtConfig({
   ssr: true,
   app: {
@@ -35,9 +34,5 @@ export default defineNuxtConfig({
       src: '~/plugins/vercel.ts',
       mode: 'client'
     }
-  ],
-  runtimeConfig: {
-    CONTENTFUL_SPACE_ID: process.env.CONTENTFUL_SPACE_ID,
-    CONTENTFUL_ACCESS_TOKEN: process.env.CONTENTFUL_ACCESS_TOKEN
-  }
+  ]
 })

@@ -1,0 +1,58 @@
+{
+  "order": 1,
+  "body": [
+    {
+      "title": "HTML+CSS",
+      "level": 4,
+      "content": "できます。",
+      "icon": "devicon-html5-plain-wordmark"
+    },
+    {
+      "title": "PHP",
+      "level": 2,
+      "content": "Laravelを講義課題で使ったことがあります。",
+      "icon": "devicon-php-plain"
+    },
+    {
+      "title": "JavaScript",
+      "level": 2,
+      "content": "Vue.js（Nuxt.js）も使うことができます。",
+      "icon": "devicon-javascript-plain"
+    },
+    {
+      "title": "Java",
+      "level": 1,
+      "content": "講義で使ったことがあるレベルです。",
+      "icon": "devicon-java-plain"
+    },
+    {
+      "title": "Dart",
+      "level": 2,
+      "content": "講義課題で独学でFlutterを使いました。",
+      "icon": "devicon-flutter-plain"
+    },
+    {
+      "title": "R",
+      "level": 3,
+      "content": "主要統計処理、グラフィック出力ができます。",
+      "icon": "devicon-r-plain"
+    },
+    {
+      "title": "Python",
+      "level": 1,
+      "content": "勉強途中です。",
+      "icon": "devicon-python-plain"
+    },
+    {
+      "title": "SAS",
+      "level": 2,
+      "content": "統計処理を書籍等を見ながらできます。研究の解析で用いました。"
+    },
+    {
+      "title": "MATLAB",
+      "level": 1,
+      "content": "指導教官に勧められて少しずつ勉強しています。",
+      "icon": "devicon-matlab-plain"
+    }
+  ]
+}

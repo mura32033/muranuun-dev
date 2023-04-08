@@ -11,7 +11,7 @@
 </script>
 <template>
   <Pagetitle title="Works" />
-  <div class="grid grid-cols-3 gap-8">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
     <ContentList path="/works">
       <template v-slot="{ list }">
         <div v-for="item in list" :key="item.id" class="flex flex-col border border-slate-500 rounded hover:cursor-pointer hover:bg-slate-600 hover:border-slate-400">

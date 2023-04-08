@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-slate-700 text-slate-300">
-    <div class="flex flex-col min-h-screen mx-4 md:w-3/4 md:mx-auto py-4 md:py-8">
+  <div class="bg-slate-700 text-slate-300 inset-0">
+    <div class="flex flex-col min-h-screen mx-4 md:mx-8 lg:mx-auto lg:w-3/4 py-4 lg:py-8">
       <header class="flex flex-col md:flex-row items-center">
         <router-link to="/" exact active-class="disabled"><Logo :width="100" /></router-link>
         <Nav />

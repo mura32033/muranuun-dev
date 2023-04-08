@@ -5,8 +5,8 @@ export default defineNuxtConfig({
     head: {
       titleTemplate: '%s - むらさん'
     },
-    layoutTransition: {
-      name: 'layout',
+    pageTransition: {
+      name: 'page',
       mode: 'out-in'
     }
   },

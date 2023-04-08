@@ -7,16 +7,19 @@ tags: [Dart, Flutter]
 
 # Flutterを使ったテキスト感情分析機能付きWeb/Android用チャットアプリ
 
-講義課題としてFlutterを使ったチャットアプリを開発しました。チャット機能自体はとてもシンプルな機能しかありません。テキストと画像が送信できます。
+講義課題としてFlutterを使ったチャットアプリを開発しました。
+チャット機能自体はとてもシンプルな機能しかありません。
+テキストと画像が送信できます。
 
 ## 特徴
 
 ![アプリのアーキテクチャ](https://mura32033.com/assets/img/works/architecture.jpg)
-特徴は、感情表現としてスタンプや顔文字を使用するのではなく、フォントを使っていることです。さらに、Google Cloud PlatformのNatural Language APIを通してSentiment Analysisのスコアを用いて自動感情分析・フォント選択をできるようにしました。
+特徴は、感情表現としてスタンプや顔文字を使用するのではなく、フォントを使っていることです。
+さらに、Google Cloud PlatformのNatural Language APIを通してSentiment Analysisのスコアを用いて自動感情分析・フォント選択をできるようにしました。
 
 ## 使用技術
 
-Dart言語を使用しています。フレームワークとしてFlutterを採用しました。また、FirebaseやGoogle Cloud Platformとの連携にAPIを導入しています。"
+Dart言語を使用しています。フレームワークとしてFlutterを採用しました。また、FirebaseやGoogle Cloud Platformとの連携にAPIを導入しています。
 
 ::ImageGroup{way="hori"}
 ![チャットアプリ起動画面のスクリーンショット](https://mura32033.com/assets/img/works/chatapp_1.jpg)

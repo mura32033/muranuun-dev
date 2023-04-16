@@ -2,9 +2,10 @@
   "order": 5,
   "body": [
     {
-      "title": "In preparation...",
-      "date": "Published date comes here",
-      "publisher": "Publisher name comes here",
+      "title": "A Pilot Study of Temporal Associations Between Psychological Stress and Cardiovascular Response",
+      "date": "Nov 2021",
+      "publisher": "2021 43rd Annual International Conference of the IEEE Engineering in Medicine & Biology Society",
+      "doi": "10.1109/EMBC46164.2021.9630872",
       "isFirstAuthor": false
     }
   ]

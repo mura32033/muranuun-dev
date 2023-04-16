@@ -1,3 +1,3 @@
 <template>
-  <p class="mb-4 leading-relaxed"><slot /></p>
+  <p class="mb-4 last:mb-0 leading-relaxed"><slot /></p>
 </template>

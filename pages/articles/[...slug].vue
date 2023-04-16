@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="mb-2">
-      <NuxtLink to="/articles" class="text-sm md:text-base">
-        &larr; Back to articles
+      <NuxtLink to="/articles" class="flex flex-row items-center text-sm md:text-base">
+        <Icon name="mdi:arrow-left" size="18" class="mr-2" />Back to articles
       </NuxtLink>
     </div>
     <ContentDoc>

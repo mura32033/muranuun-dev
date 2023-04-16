@@ -1,0 +1,37 @@
+---
+title: Notion APIで課題一覧を取得
+description: Notion APIで課題一覧を取得
+createdAt: 2022/05/12
+---
+
+## Notionでのページ・データベースの構成
+
+[![Notionデータベースの構成図](https://mermaid.ink/img/pako:eNqNk71OwzAcxF8l8lSkdki8ZUsDUgaUAdhwBzdxSaTEqVIHhKouzQADYkdMDAytEOJrqYTowwTU8hY4tlO1gtJm8t3_cvoltvvAS3wCTNCJkjMvwCnTjpqIItbL2icp7gaajxlu4x4pTcT8MCUeCxOq7R9Ix6p9Pd9_Th_nD7ezj1GRj4vhpMgvi_yiyN-L4bTIb8RisiPztn4so3ZLGYYympUBlWEpw9IajYZm6yvKWFGwVIT6iGr8-QVvy7Cr1yrM6xLqH0yHR8cv33dXaxO0-pBFmcIN-EC8Oh-9zt6eWgu0P_5qU4EZ24MZG8GMdWDG9mCWAoPbg8GNYHAdGFwLZutig119SThSGHJiLAlHCigncEk4QriygIoCR4pACFcWUFHgSBEI4coCKgocKQII6iAmaYxDn1-efnnsEGABiQkCJl_6pIOziCFQl6PF9SrHfXlKEfCy9FS9EIWU4BSBcjRAdMD7sy7fDLLnhyxJgdnBUY_UAc5YcnhOPWCyNCNVaDfEfPtilRr8AOLBtto)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNqNk71OwzAcxF8l8lSkdki8ZUsDUgaUAdhwBzdxSaTEqVIHhKouzQADYkdMDAytEOJrqYTowwTU8hY4tlO1gtJm8t3_cvoltvvAS3wCTNCJkjMvwCnTjpqIItbL2icp7gaajxlu4x4pTcT8MCUeCxOq7R9Ix6p9Pd9_Th_nD7ezj1GRj4vhpMgvi_yiyN-L4bTIb8RisiPztn4so3ZLGYYympUBlWEpw9IajYZm6yvKWFGwVIT6iGr8-QVvy7Cr1yrM6xLqH0yHR8cv33dXaxO0-pBFmcIN-EC8Oh-9zt6eWgu0P_5qU4EZ24MZG8GMdWDG9mCWAoPbg8GNYHAdGFwLZutig119SThSGHJiLAlHCigncEk4QriygIoCR4pACFcWUFHgSBEI4coCKgocKQII6iAmaYxDn1-efnnsEGABiQkCJl_6pIOziCFQl6PF9SrHfXlKEfCy9FS9EIWU4BSBcjRAdMD7sy7fDLLnhyxJgdnBUY_UAc5YcnhOPWCyNCNVaDfEfPtilRr8AOLBtto)
+
+履修講義を管理する「履修講義リストデータベース」に各講義の詳細ページを用意。
+
+そのページ内に講義ノートを管理する「講義ノートデータベース」と課題を管理する「課題データベース」を置いた。
+
+### 問題点
+
+使っているうちに全講義の課題を一覧表示させたくなってきたが、履修講義リストデータベースと課題データベースは直接繋がっていないのでNotion内だけでは解決できない。
+
+→Notion APIでループ処理で全講義ページ内の講義データベースを取得させることができれば無事解決!
+
+## 使用技術
+
+- Notion API
+- Google Apps Script(GAS)
+- Vue.js(v2)
+
+手っ取り早く取得・表示させるために、GASを使った。
+
+Notion APIはドキュメントがとても優しいのですぐにデータを取得する準備「は」できた。
+
+データベースとページ(ブロック)などのNotion独自の仕様とAPIの使い分けがなかなか難しかった。ちゃんとドキュメント読んでいれば問題ないのかもしれないが手探りで何回もAPIを叩いて(ダメです)構造を確認。
+
+Vueは大好きなのでGASに埋め込んで使用。
+
+## まとめ
+
+課題一覧を表示させることができてうれしい!

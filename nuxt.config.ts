@@ -26,7 +26,7 @@ export default defineNuxtConfig({
     highlight: {
       // Theme used in all color schemes.
       theme: 'github-dark',
-      preload: ['xml']
+      preload: ['xml', 'tex']
     }
   },
   plugins: [

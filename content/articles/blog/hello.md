@@ -1,6 +1,7 @@
 ---
 title: '夢の話1'
 description: '夢の内容をChatGPTに物語にしてもらいました。'
+createdAt: 2023-03-27
 ---
 
 ::alert

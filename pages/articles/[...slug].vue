@@ -1,9 +1,15 @@
 <template>
   <div>
-    <div class="mb-2">
+    <div class="flex flex-row items-center gap-2 mb-2">
       <NuxtLink to="/articles" class="flex flex-row items-center text-sm md:text-base">
-        <Icon name="mdi:arrow-left" size="18" class="mr-2" />Back to articles
+        Articles
       </NuxtLink>
+      <span>/</span>
+      <NuxtLink :to="`/articles/${$route.params.slug[0]}`" class="flex flex-row items-center text-sm md:text-base capitalize">
+        {{ $route.params.slug[0] }}
+      </NuxtLink>
+      <span>/</span>
+      <span class="text-slate-400">{{ $route.params.slug[1] }}</span>
     </div>
     <ContentDoc>
       <template v-slot="{ doc }">

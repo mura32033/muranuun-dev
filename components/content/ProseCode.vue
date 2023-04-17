@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-slate-800 border border-slate-500 rounded p-4">
+  <div class="bg-slate-800 border border-slate-500 rounded p-4 my-4">
     <div class="flex flex-row border-b border-b-slate-500 px-4 pb-2">
       <span v-if="filename" class="text-sm text-slate-400">
         {{ filename }}

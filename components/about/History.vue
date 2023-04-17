@@ -11,7 +11,7 @@ defineProps<{
         <div class="absolute w-2 md:w-3 h-2 md:h-3 bg-slate-400 rounded-full mt-2 -left-1 md:-left-1.5">
         </div>
         <time class="mb-1 text-sm lg:text-sm leading-none text-slate-400">{{ c.date }}</time>
-        <h3 class="text-base lg:text-xl font-bold text-slate-200">{{ c.title }}</h3>
+        <h3 class="lg:text-2xl my-auto">{{ c.title }}</h3>
         <p class="text-sm lg:text-base mt-2 text-slate-300">{{ c.content }}</p>
       </li>
     </ol>

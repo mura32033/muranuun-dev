@@ -22,7 +22,7 @@ const { data } = await useAsyncData('about', () => queryContent('about/').sort({
       </div>
     </div>
     <div v-for="item in data" :key="item._path" class="mb-8">
-      <h1 class="text-2xl md:text-4xl mb-4">{{ item.title }}</h1>
+      <h2>{{ item.title }}</h2>
       <template v-if="item.title === 'Skill'">
         <about-skill :content="item.body" />
       </template>

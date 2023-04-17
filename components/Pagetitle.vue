@@ -4,7 +4,7 @@
   }>()
 </script>
 <template>
-  <h1 class="text-3xl md:text-6xl mb-8 capitalize">
+  <h1 class="capitalize">
     {{ title }}
   </h1>
 </template>

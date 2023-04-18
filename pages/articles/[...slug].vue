@@ -16,7 +16,8 @@ function formatDatetime(datetime: string) {
         Articles
       </NuxtLink>
       <span>/</span>
-      <NuxtLink :to="`/articles/${$route.params.slug[0]}`" class="flex flex-row items-center text-sm md:text-base capitalize">
+      <NuxtLink :to="`/articles/${$route.params.slug[0]}`"
+        class="flex flex-row items-center text-sm md:text-base capitalize">
         {{ $route.params.slug[0] }}
       </NuxtLink>
       <span>/</span>
@@ -29,6 +30,23 @@ function formatDatetime(datetime: string) {
           <Icon name="mdi:alarm" />
           <span>{{ formatDatetime(doc.createdAt) }}</span>
         </div>
+        <div class="p-4 rounded bg-slate-600 mb-8">
+          <span class="block text-2xl font-bold mb-4">この記事に書かれていること</span>
+          <ul class="ml-4 leading-relaxed">
+            <template v-for="l in doc.body.toc.links">
+              <template v-if="l.depth === 2">
+                <li class="text-xl leading-loose"><a :href="`#${l.id}`">{{ l.text }}</a></li>
+              </template>
+              <template v-if="l.children">
+                <template v-for="c in l.children">
+                  <template v-if="c.depth === 3">
+                    <li class="ml-4 text-base"><a :href="`#${c.id}`">{{ c.text }}</a></li>
+                  </template>
+                </template>
+              </template>
+            </template>
+          </ul>
+        </div>
         <ContentRenderer :value="doc" class="content" />
       </template>
       <template #not-found>
@@ -39,7 +57,7 @@ function formatDatetime(datetime: string) {
 </template>
 
 <style>
-  .content {
-    @apply text-slate-300;
-  }
+.content {
+  @apply text-slate-300;
+}
 </style>

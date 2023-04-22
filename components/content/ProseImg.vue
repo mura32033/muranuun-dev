@@ -1,5 +1,5 @@
 <template>
-  <img :src="refinedSrc" :alt="alt" :width="width" :height="height" class="w-1/2 mx-auto h-64 object-cover">
+  <img :src="refinedSrc" :alt="alt" :width="width" :height="height" class="mx-auto w-full h-64 md:h-auto md:w-2/3 lg:w-1/2 object-contain">
 </template>
 
 <script setup lang="ts">

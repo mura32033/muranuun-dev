@@ -22,7 +22,7 @@ function formatDatetime(datetime: string) {
           <span>{{ formatDatetime(doc.createdAt) }}</span>
         </div>
         <articles-Toc :links="doc.body.toc.links" />
-        <ContentRenderer :value="doc" class="content" />
+        <ContentRenderer :value="doc" class="text-slate-300" />
       </template>
       <template #not-found>
         <h1>Document not found</h1>
@@ -30,9 +30,3 @@ function formatDatetime(datetime: string) {
     </ContentDoc>
   </div>
 </template>
-
-<style>
-.content {
-  @apply text-slate-300;
-}
-</style>

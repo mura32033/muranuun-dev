@@ -13,4 +13,6 @@ tags: [Android]
 
 Javaを使用しています。
 
+::ImageGroup{way="hori"}
 ![アプリスクリーンショット](https://mura32033.com/assets/img/works/androidalarm_1.png)
+::

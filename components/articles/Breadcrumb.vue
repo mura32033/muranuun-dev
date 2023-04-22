@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-row items-center capitalize text-xs md:text-base">
+  <div class="flex flex-row items-center mb-2 capitalize text-xs md:text-base">
     <template v-for="(s, i) in $route.path.substring(1).split('/')">
       <div v-if="i === 0" class="flex flex-row items-center">
         <NuxtLink :to="'/' + s">{{ s }}</NuxtLink>

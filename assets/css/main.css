@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&family=Zen+Maru+Gothic&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 h1 {
-  @apply text-3xl md:text-4xl lg:text-6xl mb-4 lg:mb-8;
+  @apply font-kaku text-3xl md:text-4xl lg:text-6xl mb-4 lg:mb-8;
 }
 h2 {
-  @apply text-2xl lg:text-4xl mt-6 lg:mt-12 mb-4;
+  @apply font-kaku text-2xl lg:text-4xl mt-6 lg:mt-12 mb-4;
 }
 h3 {
-  @apply my-4 text-xl lg:text-2xl;
+  @apply font-kaku my-4 text-xl lg:text-2xl;
 }

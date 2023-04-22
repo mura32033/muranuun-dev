@@ -10,7 +10,8 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      maru: ['"Zen Maru Gothic"', 'sans-serif']
+      maru: ['"Zen Maru Gothic"', 'sans-serif'],
+      kaku: ['"Zen Kaku Gothic New"', 'sans-serif']
     },
     extend: {},
   },

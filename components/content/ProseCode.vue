@@ -1,14 +1,13 @@
 <template>
-  <div class="bg-slate-800 border border-slate-500 rounded p-4 my-4">
+  <div class="bg-slate-800 border border-slate-500 rounded p-4 my-4 text-sm">
     <div class="flex flex-row border-b border-b-slate-500 px-4 pb-2">
-      <span v-if="filename" class="text-sm text-slate-400">
+      <span v-if="filename" class="text-slate-400">
         {{ filename }}
       </span>
-      <span class="ml-auto text-sm text-slate-400">
+      <span class="ml-auto text-slate-400">
         {{ language }}
       </span>
     </div>
-    
     <slot />
     <div class="flex flex-row gap-4 px-4 mt-2 justify-end text-sm">
       <span class="flex flex-row items-center text-slate-300" v-if="copied"><Icon name="mdi:check" class="mr-2" />Copied code!</span>

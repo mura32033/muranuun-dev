@@ -1,5 +1,7 @@
 <template>
-  <img :src="refinedSrc" :alt="alt" :width="width" :height="height" class="mx-auto w-full h-64 md:h-auto md:w-2/3 lg:w-1/2 object-contain">
+  <NuxtLink :to="refinedSrc" target="_blank">
+    <img :src="refinedSrc" :alt="alt" :width="width" :height="height" class="mx-auto w-full h-64 md:h-auto md:w-2/3 lg:w-1/2 object-contain">
+  </NuxtLink>
 </template>
 
 <script setup lang="ts">

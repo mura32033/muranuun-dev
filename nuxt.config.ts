@@ -4,10 +4,6 @@ export default defineNuxtConfig({
   app: {
     head: {
       titleTemplate: '%s - むらさん'
-    },
-    pageTransition: {
-      name: 'page',
-      mode: 'out-in'
     }
   },
   css: ['~/assets/css/main.css'],

@@ -1,7 +1,9 @@
 <script setup lang="ts">
   const route = useRoute()
+  const { data } = await useAsyncData('works', () => queryContent('/works').where({id: route.params.slug[0]}).findOne())
+
   useHead({
-    title: 'Works',
+    title: data.value.title ? data.value.title : 'Works',
     meta: [
       {
         name: 'description',
@@ -9,7 +11,6 @@
       },
     ],
   })
-  const { data } = await useAsyncData('works', () => queryContent('/works').where({id: route.params.slug[0]}).findOne())
 </script>
 <template>
   <div>

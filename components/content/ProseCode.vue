@@ -10,7 +10,7 @@
     </div>
     
     <slot />
-    <div class="flex flex-row gap-4 px-4 justify-end text-sm">
+    <div class="flex flex-row gap-4 px-4 mt-2 justify-end text-sm">
       <span class="flex flex-row items-center text-slate-300" v-if="copied"><Icon name="mdi:check" class="mr-2" />Copied code!</span>
       <button class="flex flex-row items-center text-slate-400" @click="copy(code)"><Icon name="mdi:content-copy" class="mr-2" />Copy Code</button>
     </div>

@@ -24,14 +24,14 @@ function scrollTop() {
         <div class="flex flex-row items-center gap-8">
           <div class="hidden md:flex md:flex-row items-center gap-4">
             <NuxtLink to="https://twitter.com/murasan_tech" target="_blank">
-              <Icon name="uil:twitter" class="text-base" />
+              <Icon name="uil:twitter" class="text-xl" />
             </NuxtLink>
             <NuxtLink to="https://github.com/mura32033" target="_blank">
-              <Icon name="uil:github" class="text-base" />
+              <Icon name="uil:github" class="text-xl" />
             </NuxtLink>
           </div>
           <div @click="scrollTop" class="flex flex-row items-center cursor-pointer">
-            <Icon name="uil:arrow-up" class="text-base" />
+            <Icon name="uil:arrow-up" class="text-xl" />
             <span class="ml-2">Back to top</span>
           </div>
         </div>

@@ -35,6 +35,7 @@ const contact = [
         <span>{{ c.display }}</span>
       </NuxtLink>
     </div>
+    <ContactForm />
     <div>
       <h2>ポリシー</h2>
       <p><NuxtLink class="underline" to="https://muranuun.dev" target="_blank">本サイト</NuxtLink>ならびにmura32033.com下で公開している一部制作物では、Google社提供のアクセス解析ツールであるGoogle Analytics、または、デプロイ先のVercel社のWeb Analyticsを利用しており、データ収集のためにCookieを使用しています。</p>

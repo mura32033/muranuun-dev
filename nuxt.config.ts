@@ -30,5 +30,11 @@ export default defineNuxtConfig({
       src: '~/plugins/vercel.ts',
       mode: 'client'
     }
-  ]
+  ],
+  runtimeConfig: {
+    supabase: {
+      url: '',
+      key: ''
+    }
+  }
 })

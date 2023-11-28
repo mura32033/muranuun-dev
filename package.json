@@ -19,6 +19,7 @@
     "tailwindcss": "^3.3.1"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
     "@vercel/analytics": "^0.1.11"
   }
 }

@@ -1,7 +1,7 @@
 ---
 id: textformatter
 shortDesc: 余計なスペースや改行を除去し、翻訳サイトに簡単に遷移できます。
-thumbnail: https://mura32033.com/assets/img/works/textformatter_1.png
+thumbnail: /img/works/textformatter_1.png
 tags: [JavaScript]
 ---
 
@@ -16,12 +16,10 @@ HTML、Javascriptを使用しています。
 CSSフレームワークとしてTailwind CSSを採用しました。
 
 ::ImageGroup{type="hori"}
-  ![テキスト整形アプリのスクリーンショット](https://mura32033.com/assets/img/works/textformatter_1.png)
+  ![テキスト整形アプリのスクリーンショット](/img/works/textformatter_1.png)
 ::
 
 ::OuterLinkGroup
-  :::OuterLink{type="link" text="Text Formatter" url="https://mura32033.com/toolbox/tools/textformatter/"}
-  :::
   :::OuterLink{type="github" text="GitHub" url="https://github.com/mura32033/text-formatter"}
   :::
 ::

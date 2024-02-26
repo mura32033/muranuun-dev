@@ -1,7 +1,7 @@
 ---
 id: android-alarmapp
 shortDesc: 講義課題でAndroidアプリを作りました。
-thumbnail: https://mura32033.com/assets/img/works/androidalarm_1.png
+thumbnail: /img/works/androidalarm_1.png
 tags: [Android]
 ---
 
@@ -14,5 +14,5 @@ tags: [Android]
 Javaを使用しています。
 
 ::ImageGroup{way="hori"}
-![アプリスクリーンショット](https://mura32033.com/assets/img/works/androidalarm_1.png)
+![アプリスクリーンショット](/img/works/androidalarm_1.png)
 ::

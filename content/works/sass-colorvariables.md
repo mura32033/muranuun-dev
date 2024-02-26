@@ -1,7 +1,7 @@
 ---
 id: sass-colorvariables
 shortDesc: カラー変数をSASS/SCSS用に変換します。
-thumbnail: https://mura32033.com/assets/img/works/sasscolorgene_1.png
+thumbnail: /img/works/sasscolorgene_1.png
 tags: [JavaScript]
 ---
 
@@ -15,8 +15,6 @@ BootstrapやTailwind CSSなどのCSSフレームワークのように明度の�
 HTML、Javascriptを使用しています。
 
 ::OuterLinkGroup
-  :::OuterLink{type="link" text="SASSカラー変数ジェネレータ" url="https://mura32033.com/sass-colorvariables/"}
-  :::
   :::OuterLink{type="github" text="GitHub" url="https://github.com/mura32033/SASSvariablegenerator"}
   :::
 ::

@@ -1,7 +1,7 @@
 ---
 id: next-blog
 shortDesc: Next.jsとmicroCMSを使ったブログ
-thumbnail: https://mura32033.com/assets/img/works/next-blog.png
+thumbnail: /img/works/next-blog.png
 tags: [JavaScript, React, Next, Vercel]
 ---
 

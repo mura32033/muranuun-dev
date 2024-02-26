@@ -1,7 +1,7 @@
 ---
 id: vue-bookshelf
 shortDesc: Vueを使って本棚アプリを制作しました。
-thumbnail: https://mura32033.com/assets/img/works/vue-bookshelf.png
+thumbnail: /img/works/vue-bookshelf.png
 tags: [JavaScript, Vue]
 ---
 

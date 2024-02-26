@@ -14,7 +14,7 @@ createdAt: 2022/04/17
 
 用意したTeXファイルによって次の情報を含むPDFを出力させる。
 
-![想定するPDF](https://mura32033.com/assets/img/docs/myreportlatexpdf.png)
+![想定するPDF](/img/docs/myreportlatexpdf.png)
 
 ## TeXファイル
 

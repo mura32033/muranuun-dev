@@ -1,7 +1,7 @@
 ---
 id: murastamp2
 shortDesc: LINEスタンプ第2弾。
-thumbnail: https://mura32033.com/assets/img/works/stamp2.png
+thumbnail: /img/works/stamp2.png
 tags: [Line]
 ---
 
@@ -13,10 +13,10 @@ LINE第2弾スタンプです。
 40個のスタンプで120円です。
 
 ::ImageGroup{way="hori"}
-![スタンプロゴ](https://mura32033.com/assets/img/works/stamp2.png)
-![誕生日おめでとうスタンプ](https://mura32033.com/assets/img/works/stamp2-1.png)
-![草スタンプ](https://mura32033.com/assets/img/works/stamp2-2.png)
-![何もしてないのに壊れたスタンプ](https://mura32033.com/assets/img/works/stamp2-3.png)
+![スタンプロゴ](/img/works/stamp2.png)
+![誕生日おめでとうスタンプ](/img/works/stamp2-1.png)
+![草スタンプ](/img/works/stamp2-2.png)
+![何もしてないのに壊れたスタンプ](/img/works/stamp2-3.png)
 ::
 
 ::OuterLinkGroup

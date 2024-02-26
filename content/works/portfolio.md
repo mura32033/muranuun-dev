@@ -1,7 +1,7 @@
 ---
 id: portfolio
 shortDesc: Nuxt.jsを使ってポートフォリオサイトを作りました。
-thumbnail: https://mura32033.com/assets/img/works/portfolio.png
+thumbnail: /img/works/portfolio.png
 tags: [JavaScript, Vue, Nuxt]
 ---
 

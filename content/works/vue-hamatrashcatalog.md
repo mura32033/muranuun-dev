@@ -1,7 +1,7 @@
 ---
 id: vue-hamatrashcatalog
 shortDesc: Vue.jsの勉強を兼ねて、自治体オープンデータを用いたアプリを作ってみました。
-thumbnail: https://mura32033.com/assets/img/works/hama-trash_1.png
+thumbnail: /img/works/hama-trash_1.png
 tags: [JavaScript, Vue]
 ---
 
@@ -21,10 +21,5 @@ CSSフレームワークはTailwind CSSを採用しました。
 『分別区分一覧、浜松市、[クリエイティブ・コモンズ・ライセンス 表示2.1](http://creativecommons.org/licenses/by/2.1/jp/)』
 
 ::ImageGroup
-![浜松市ゴミカタログスクリーンショット](https://mura32033.com/assets/img/works/hama-trash_1.png)
-::
-
-::OuterLinkGroup
-  :::OuterLink{type="link" text="浜松市ゴミカタログ" url="https://mura32033.com/toolbox/hama_trash/"}
-  :::
+![浜松市ゴミカタログスクリーンショット](/img/works/hama-trash_1.png)
 ::

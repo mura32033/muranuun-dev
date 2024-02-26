@@ -9,3 +9,9 @@ defineProps<{
     <ContentSlot :use="$slots.default" unwrap="p" />
   </div>
 </template>
+
+<style lang="css">
+div > a > img{
+  width: 100%!important;
+}
+</style>

@@ -1,7 +1,7 @@
 ---
 id: pixela
 shortDesc: Nuxt 3と作業時間をAPIで記録・取得するPixelaを使って作業時間を表示するアプリを作りました。
-thumbnail: https://mura32033.com/assets/img/works/pixela.png
+thumbnail: /img/works/pixela.png
 tags: [JavaScript, Vue, Nuxt, Pixela]
 ---
 

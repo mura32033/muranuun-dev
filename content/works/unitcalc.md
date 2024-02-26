@@ -1,7 +1,7 @@
 ---
 id: unitcalc
 shortDesc: 習得単位から卒業要件単位を満たすかチェックできるアプリです。
-thumbnail: https://mura32033.com/assets/img/works/unitcalc_1.png
+thumbnail: /img/works/unitcalc_1.png
 tags: [PHP]
 ---
 
@@ -16,10 +16,6 @@ PHPを使用しました。
 一部スタイル適用のためにJavaScriptによる処理を行っています。
 
 ::ImageGroup
-  ![スタンプロゴ](https://mura32033.com/assets/img/works/unitcalc_1.png)
+  ![スタンプロゴ](/img/works/unitcalc_1.png)
 ::
 
-::OuterLinkGroup
-  :::OuterLink{type="link" text="単位習得情報計算機" url="https://mura32033.com/toolbox/tools/unit/unit-insert.php"}
-  :::
-::

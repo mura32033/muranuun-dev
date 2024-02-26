@@ -17,8 +17,8 @@ HTMLとVue.jsを使用しました。JSONの取得とSpreadsheetへの保存、J
 このアプリは以下の著作物を改変して利用しています。『分別区分一覧、浜松市、[クリエイティブ・コモンズ・ライセンス 表示2.1](http://creativecommons.org/licenses/by/2.1/jp/)』
 
 ::ImageGroup{way="vert"}
-![浜松市ごみ分別品目検索スクリーンショット](https://mura32033.com/assets/img/works/hama_trash_v2_1.png)
-![浜松市ごみ分別品目検索スクリーンショット](https://mura32033.com/assets/img/works/hama_trash_v2_2.png)
+![浜松市ごみ分別品目検索スクリーンショット](/img/works/hama_trash_v2_1.png)
+![浜松市ごみ分別品目検索スクリーンショット](/img/works/hama_trash_v2_2.png)
 ::
 
 ::OuterLinkGroup

@@ -1,7 +1,7 @@
 ---
 id: bodytemprecord
 shortDesc: 体温を記録する必要が出てきたので作ってみました。
-thumbnail: https://mura32033.com/assets/img/works/feverrecord_1.jpg
+thumbnail: /img/works/feverrecord_1.jpg
 tags: [PHP, Laravel]
 ---
 
@@ -11,6 +11,6 @@ Laravelを使って体温を簡単に記録できるようにしました。
 記録したデータをグラフ表示するためにChart.jsを使っています。
 
 ::ImageGroup{type="vert"}
-![ログイン画面のスクリーンショット](https://mura32033.com/assets/img/works/feverrecord_1.jpg)
-![グラフ表示中のスクリーンショット](https://mura32033.com/assets/img/works/feverrecord_2.jpg)
+![ログイン画面のスクリーンショット](/img/works/feverrecord_1.jpg)
+![グラフ表示中のスクリーンショット](/img/works/feverrecord_2.jpg)
 ::

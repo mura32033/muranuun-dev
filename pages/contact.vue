@@ -10,7 +10,7 @@ useHead({
 })
 const contact = [
   {
-    name: 'twitter',
+    name: 'twitter-x',
     display: '@murasan_tech',
     url: 'https://twitter.com/murasan_tech'
   },
@@ -31,7 +31,7 @@ const contact = [
     <Pagetitle title="Contact" />
     <div class="space-y-4">
       <NuxtLink v-for="c in contact" class="flex flex-row items-center space-x-4 w-fit hover:underline" :to="c.url" target="_blank">
-        <span class="text-xl"><Icon :name="`cib:${c.name}`" /></span>
+        <span class="text-xl"><Icon :name="`bi:${c.name}`" /></span>
         <span>{{ c.display }}</span>
       </NuxtLink>
     </div>

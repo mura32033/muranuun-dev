@@ -20,13 +20,17 @@ const blog = await queryContent('articles', 'blog').limit(limit).only(['_path', 
         <articles-ArticleCardGroup :data="tech" :slug="'tech'" />
       </div>
       <div>
-        <NuxtLink to="/articles/blog">
-          <h2>Blog <Icon name="mdi:dots-horizontal" size="24" /></h2>
+        <h2>Blog</h2>
+        <p class="mb-4">何気ない日常や思ったことを掲載しています。</p>
+        <NuxtLink to="https://blog.muranuun.dev/" class="flex flex-col flex-1 p-4">
+          <div class="flex flex-col border border-slate-500 rounded hover:cursor-pointer hover:bg-slate-600 hover:border-slate-400">
+            <div class="flex flex-col flex-1 p-4">
+              <span class="block text-xl lg:text-2xl mb-4">むらのブログ</span>
+              <p class="text-sm lg:text-base pl-4 mt-auto">ブログは移行しました</p>
+            </div>
+          </div>
         </NuxtLink>
-        <p class="mb-8">何気ない日常や思ったことを掲載しています。</p>
-        <articles-ArticleCardGroup :data="blog" :slug="'blog'" />
       </div>
     </div>
-
   </div>
 </template>

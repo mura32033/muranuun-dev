@@ -3,7 +3,13 @@ export default defineNuxtConfig({
   ssr: false,
   app: {
     head: {
-      titleTemplate: '%s - むらさん'
+      titleTemplate: '%s - むらさん',
+      link: [
+        {
+          rel: 'icon',
+          href: '/logo.png'
+        }
+      ]
     }
   },
   css: ['~/assets/css/main.css'],
